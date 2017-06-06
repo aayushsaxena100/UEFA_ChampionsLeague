@@ -1,0 +1,112 @@
+.body{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: 104%;
+	height: 102%;
+	background-image: url(uefa.jpg);
+	background-size: cover;
+	background-attachment:fixed;
+	-webkit-filter: blur(3px);
+	z-index: 0;
+}
+.container{
+	width:100%;
+}
+.grad{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	z-index: 1;
+}
+#main-nav {
+	width:100%;
+	padding-top:30px;
+	padding-left:70px;
+    font-size: 30px;
+    height: 72px;
+    width:104%;
+    background: rgba(26, 25, 25,0.8);
+}
+li{
+	display:inline-block;
+}
+#main-nav li a{
+    border: solid transparent;
+    text-decoration:none;
+    color: blue;
+    font-size:22px; 
+    padding-bottom: 5px;
+    padding-left:15px;
+    padding-right:15px;
+    transition: 0.6s;
+}
+#main-nav li a:hover{
+    background-color:rgba(0,0,0,0.5);
+    color:blanchedalmond;
+    border-bottom: 3px solid blue;
+    transition: 0.6s;
+}
+
+#training{
+    height: 50%;
+    padding-left: 9rem;
+}
+#run{
+    opacity: 0.4;
+    transition: 0.3s;
+    color: rgb(0, 0, 0);
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 0px 1px 6px 6px;
+    margin-top: 5rem;
+    padding-top: 10px;
+    margin-right: 140px;
+    margin-left: -50px;
+    text-align: center;
+    background-color: white;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#jump{
+	opacity: 0.4;
+    border-radius: 5px;
+    transition: 0.3s;
+    border: 2px solid lightgray;
+    box-shadow: 0px 1px 6px 6px;
+    text-align: center;
+    margin-top: 5rem;
+    padding-top: 10px;
+    margin-right: 140px;
+    background-color: white;
+}
+#swim{
+	opacity: 0.4;
+    transition: 0.3s;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+    box-shadow: 0px 1px 6px 6px;
+    text-align: center;
+    margin-top: 5rem;
+    padding-top: 10px;
+    background-color: white;
+}
+#run:hover{
+    transition: 0.3s;
+    transform: scale(0.98);
+}
+#jump:hover{
+    transition: 0.3s;
+    transform: scale(0.95);
+}
+#swim:hover{
+    transition: 0.3s;
+    transform: scale(0.95);
+}
